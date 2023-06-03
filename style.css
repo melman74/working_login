@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding:0;
+    margin:0;
+}
+
+.DropboxHead {
+     display: flex;
+     justify-content: flex-start;
+     border-bottom: 1px solid grey;
+     height: 38px;
+     align-items: center;
+     position: fixed;
+     top: 0;
+     left: 0;
+     background-color: white;
+     width: 100%;
+
+}
+
+.DBLogo {   
+     height:38px; 
+     margin-right: 10px; 
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.Logo {
+    height: 20px;
+    border: 1px solid purple;
+}
+
+#OrLine{
+    width: 300px;
+    border-bottom: 1px solid grey;
+    text-align: center;
+    margin: 10px 0 20px;
+    line-height: 0.1;
+}
+
+span {
+    background-color: white;
+}
+
+.ButtonSpan {
+    border: 3px solid yellow;
+}
+
+a {
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid grey;
+    gap: 10px;
+    padding: 15px 10px;
+    text-decoration: none; 
+    align-items: center;
+    width: 100%;
+}
+
+.Container {
+    width: 300px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

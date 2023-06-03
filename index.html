@@ -9,23 +9,24 @@
 </head>
 <body>
     <header class="DropboxHead">
-        <img src="./Dropboxlogo.png" alt="Dropbox Logo">
+        <img class="DBLogo" src="./Dropboxlogo.png" alt="Dropbox Logo">
         <h1>Dropbox</h1>
     </header>
     
     <main>
-        <h2> Log in or Sign Up</h2>
+        <div class="Container">
 
-        <section class="GoogleButton">
-            <img src="./googleLogo.png" alt="Google Logo">
-            Continue with Google
-        </section>
 
-        <section class="AppleButton">
-            <img src="./appleLogo.png" alt="Apple Logo">
-            Continue with Apple
-        </section>
+        <h2> Log In or Sign Up</h2>
+
+        <section>
+        <a href=""><img class="Logo" src="./googleLogo.png" alt="Google Logo">
+        <span class="ButtonSpan">Continue with Google</span>  </a>
+        <a href=""><img class="Logo" src="./appleLogo.png" alt="Apple Logo">
+            <span class="ButtonSpan">Continue with Apple</span> </a>
         
+        </section>
+          
         <div id="OrLine">
             <span>Or</span>
         </div>
@@ -35,7 +36,7 @@
             <input type="email" name="Email" id="Email">
             <button>Continue</button>
          </form>
-
+    </div>
 
     </main>
     
